@@ -133,10 +133,11 @@ body:has(#invite:not(.hidden)){
   margin:4px 0 2px;
 }
 #invite .event-title{
-  font-size:29px;
-  letter-spacing:4px;
-  color:#3b2c20;
-  font-weight:600;
+  font-family:Arial, sans-serif !important;
+  font-size:24px;
+  letter-spacing:1px;
+  color:#333;
+  font-weight:500;
   margin:8px 0 17px;
 }
 #invite .couple{
