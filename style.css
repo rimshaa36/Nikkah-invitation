@@ -36,9 +36,9 @@ body:has(#invite:not(.hidden)){background:#efe5d2}
   #invite .formal-request{font-size:15px;letter-spacing:1px}
 }
   /* Bride & Groom boxes */
-  #invite .side{width:75px;height:105px;padding:5px}
-  #invite .side b{font-size:45px}
-  #invite .side small{font-size:8px;letter-spacing:2px}
+  #invite .side{width:60px;height:85px;padding:3px}
+  #invite .side b{font-size:38px}
+  #invite .side small{font-size:7px;letter-spacing:1px}
   #invite .left{left:3px;top:12%}
   #invite .right{right:3px;top:16%}
 
