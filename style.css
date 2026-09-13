@@ -1,0 +1,214 @@
+*{box-sizing:border-box}body{margin:0;color:#3b2c20;background:#f8efdd;font-family:"Cormorant Garamond",Georgia,serif}.hidden{display:none!important}.cover{min-height:100vh;display:grid;place-items:center;position:relative;background:radial-gradient(circle at 15% 20%,#fff8e8,transparent 30%),radial-gradient(circle at 85% 80%,#ead7ae,transparent 25%),#f8efdd}.langs{position:absolute;top:20px;right:22px;z-index:5;display:flex;gap:6px}.langs button{border:1px solid #b88a38;background:#fffaf0;color:#4a3824;border-radius:20px;padding:6px 12px;cursor:pointer}.langs button.active,.langs button:hover{background:#b88a38;color:#fff}.card{width:min(760px,92vw);min-height:650px;text-align:center;padding:75px 35px 45px;background:#fffaf0dd;border:1px solid #b88a38;box-shadow:0 20px 65px #5b401d22;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative}.card:before,.card:after{content:"";position:absolute;width:80px;height:80px;border:1px solid #b88a38}.card:before{left:18px;top:18px;border-right:0;border-bottom:0}.card:after{right:18px;bottom:18px;border-left:0;border-top:0}.arabic{font-family:"Noto Naskh Arabic",serif;font-size:30px;direction:rtl}.card small{letter-spacing:3px;color:#b88a38;margin-top:15px}.line{color:#b88a38;margin:18px}.card h1{font-size:clamp(48px,8vw,78px);font-weight:500;margin:5px 0}.card p{font-size:20px;color:#766858}.seal{width:135px;height:135px;border-radius:50%;border:2px solid #b88a38;background:radial-gradient(circle,#d9b76b 0 52%,#a77a2d 53% 58%,#f4dfaa 59%);color:#fff;cursor:pointer;box-shadow:0 8px 35px #805b2238;animation:pulse 2s infinite}.seal span{font-family:Georgia;font-weight:bold;letter-spacing:1px}.seal b{font-size:11px;letter-spacing:3px}.names{font-size:25px;letter-spacing:2px;margin-top:27px}.names i{color:#b88a38;padding:0 8px}.date{color:#766858;letter-spacing:2px;margin-top:8px}.petals{position:fixed;inset:0;pointer-events:none;color:#b88a3860;font-size:20px;word-spacing:7vw;line-height:18vh;animation:drift 10s linear infinite;z-index:10}.hero{min-height:100vh;display:grid;place-items:center;position:relative;overflow:hidden;padding:90px 20px 60px;background:linear-gradient(#f8efdd,#fffaf0)}.hero:before{content:"";position:absolute;inset:20px;border:1px solid #b88a3860}.heroText{width:min(800px,90vw);text-align:center;position:relative;z-index:2}.heroText h2{font-size:46px;margin:18px 0 8px}.heroText p{font-size:21px;line-height:1.5}.arabic.small{font-size:25px;margin-top:4px}.couple{font-size:clamp(35px,6vw,62px);letter-spacing:2px;line-height:1;margin:32px 0 20px}.couple span{display:block;color:#b88a38;font-family:"Great Vibes",cursive;font-size:52px;margin:9px}.blessing{font-style:italic;color:#766858;max-width:650px;margin:auto}.side{position:absolute;width:185px;height:245px;padding:9px;border:1px solid #b88a38;background:#fffaf0;box-shadow:0 15px 40px #5b401d20;z-index:2}.side>div{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(145deg,#ead7ae,#fff8e9,#d8bb7b);color:#8a682e}.side b{font-family:"Great Vibes",cursive;font-size:95px;font-weight:400}.side small{letter-spacing:4px}.left{left:5%;top:27%;transform:rotate(-7deg);animation:float 5s infinite}.right{right:5%;top:33%;transform:rotate(7deg);animation:float 6s infinite reverse}.details{text-align:center;padding:90px 6%;background:#fffaf0}.label{letter-spacing:4px;color:#b88a38;font-size:12px}.details>h2,.count h2{font-size:52px;font-weight:500;margin:14px 0 2px}.subtitle{color:#766858;font-size:19px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;max-width:1100px;margin:45px auto}.grid article{min-height:310px;padding:35px 24px;background:#fffdf8;border:1px solid #b88a3866;box-shadow:0 10px 35px #5b401d10;transition:.35s;display:flex;flex-direction:column;align-items:center}.grid article:hover{transform:translateY(-8px)}.icon{width:52px;height:52px;border:1px solid #b88a38;border-radius:50%;display:grid;place-items:center;color:#b88a38;font-size:24px}.grid h3{color:#b88a38;letter-spacing:3px;font-size:13px;margin:18px 0}.grid strong{font-size:22px}.grid span{font-size:18px;color:#766858;margin-top:5px}.grid p{color:#766858;font-size:16px;line-height:1.45}.grid a{margin-top:auto;border:1px solid #b88a38;border-radius:20px;padding:9px 19px;color:#3b2c20;text-decoration:none;font-size:12px;letter-spacing:1px}.count{text-align:center;padding:85px 20px;background:#3d3025;color:#fff8e9}.count small{letter-spacing:4px;color:#d9b76b}.count h2{color:#fff8e9}.timer{display:flex;justify-content:center;gap:20px}.timer div{width:125px;border:1px solid #d9b76b80;padding:18px}.timer b{display:block;color:#e0c17c;font-size:42px;font-weight:500}.timer span{font-size:10px;letter-spacing:3px}.closing{text-align:center;padding:90px 20px 110px;background:#fffaf0}.flourish{color:#b88a38;font-size:28px}.closing .arabic{margin:25px;font-size:27px}.closing p{font-size:19px;color:#766858}.signature{font-family:"Great Vibes",cursive;color:#b88a38;font-size:52px;margin:25px}.signature span{font-size:35px;padding:0 10px}.close{background:transparent;border:1px solid #b88a38;padding:13px 27px;letter-spacing:2px;color:#3b2c20;cursor:pointer}.close:hover{background:#b88a38;color:white}.closing>small{display:block;color:#8a7b6b;margin-top:10px}.music{position:fixed;right:20px;bottom:20px;width:48px;height:48px;border-radius:50%;border:1px solid #b88a38;background:#fffaf0;color:#b88a38;font-size:22px;z-index:20}@keyframes pulse{50%{box-shadow:0 8px 45px #b88a3880,0 0 0 10px #b88a3815}}@keyframes float{50%{margin-top:-14px}}@keyframes drift{0%{transform:translateY(0)}50%{transform:translateY(20px) rotate(4deg)}100%{transform:translateY(0)}}@media(max-width:900px){.side{width:135px;height:185px}.grid{grid-template-columns:1fr;max-width:500px}}@media(max-width:600px){.side{width:100px;height:140px}.side b{font-size:58px}.left{left:-12px;top:12%}.right{right:-12px;top:16%}.heroText h2{font-size:33px}.heroText p{font-size:18px}.couple{font-size:38px}.details>h2,.count h2{font-size:42px}.timer{gap:5px}.timer div{width:78px;padding:12px 3px}.timer b{font-size:28px}.timer span{font-size:7px;letter-spacing:1px}}
+/* LARGE INVITATION BOX */
+body:has(#invite:not(.hidden)){background:#efe5d2}
+#invite{max-width:1200px;margin:34px auto 50px;background:#fffdf8;border:1px solid #d8b66d;border-radius:34px;box-shadow:0 22px 70px rgba(78,55,24,.18);overflow:hidden;position:relative}
+#invite:before{content:"";position:absolute;inset:17px;border:1px solid rgba(184,138,56,.38);border-radius:23px;pointer-events:none;z-index:20}
+#invite:after{content:"";position:absolute;inset:30px;border:1px solid rgba(184,138,56,.16);border-radius:17px;pointer-events:none;z-index:20}
+#invite .hero{min-height:860px;padding:110px 45px 90px}
+#invite .hero:before{inset:42px;border:1px solid rgba(184,138,56,.25)}
+#invite .heroText{max-width:850px;padding:25px 45px}
+#invite .heroText>p:first-of-type{font-size:22px;color:#69765e;font-weight:600}
+#invite .formal-line{font-size:17px;letter-spacing:3px;color:#766858;margin:28px 0 12px}
+#invite .formal-request{font-size:20px;letter-spacing:2px;color:#5b4b3b;margin:34px auto 10px;max-width:750px}
+#invite .couple{font-size:clamp(40px,5vw,64px)}
+#invite .details{padding:85px 7%;background:linear-gradient(180deg,#fffdf8,#f8efdf)}
+#invite .count{padding:78px 25px}
+#invite .closing{padding:80px 25px 105px}
+#invite .side{z-index:5}
+#invite .langs{z-index:25}
+#invite .music{z-index:30}
+#invite .heroText,.details,.count,.closing{position:relative;z-index:2}
+
+@media(max-width:900px){
+  #invite{margin:15px 12px 30px;border-radius:25px}
+  #invite:before{inset:12px}
+  #invite:after{inset:22px}
+  #invite .hero{min-height:800px;padding:100px 18px 65px}
+  #invite .heroText{padding:25px 20px}
+}
+@media(max-width:600px){
+  #invite{margin:8px 6px 20px;border-radius:20px}
+  #invite:before{inset:9px;border-radius:15px}
+  #invite:after{inset:16px;border-radius:12px}
+  #invite .hero{min-height:780px;padding:95px 12px 50px}
+  #invite .heroText{padding:20px 8px}
+  #invite .formal-line{font-size:12px;letter-spacing:2px}
+  #invite .formal-request{font-size:15px;letter-spacing:1px}
+}
+
+/* ===== VARIATION: FORMAL WEDDING CARD + SLIDING PAGE ANIMATION ===== */
+body:has(#invite:not(.hidden)){
+  background:
+    radial-gradient(circle at 10% 10%,rgba(216,182,109,.20),transparent 24%),
+    radial-gradient(circle at 90% 85%,rgba(184,138,56,.15),transparent 25%),
+    #eee3ce;
+}
+
+/* Moving decorative background layers */
+#invite{
+  isolation:isolate;
+}
+#invite:after{
+  background:
+    linear-gradient(120deg,transparent 0 45%,rgba(184,138,56,.035) 50%,transparent 55%),
+    linear-gradient(300deg,transparent 0 45%,rgba(184,138,56,.035) 50%,transparent 55%);
+  background-size:260% 260%,260% 260%;
+  animation:goldSweep 16s ease-in-out infinite alternate;
+}
+#invite .hero{
+  background:
+    radial-gradient(circle at 50% 35%,rgba(255,255,255,.94),transparent 46%),
+    linear-gradient(180deg,#fffdf9,#f7edda);
+  overflow:hidden;
+}
+#invite .hero:after{
+  content:"";
+  position:absolute;
+  width:680px;
+  height:680px;
+  border:1px solid rgba(184,138,56,.12);
+  border-radius:50%;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  box-shadow:0 0 0 45px rgba(184,138,56,.025),0 0 0 90px rgba(184,138,56,.018);
+  animation:slowRotate 25s linear infinite;
+  pointer-events:none;
+}
+
+#invite .heroText{
+  padding:45px 55px;
+  background:rgba(255,253,248,.56);
+  border:1px solid rgba(184,138,56,.28);
+  box-shadow:0 15px 55px rgba(70,48,20,.08);
+}
+#invite .allah-line{
+  color:#68785d!important;
+  font-size:21px!important;
+  font-weight:600;
+  letter-spacing:.4px;
+  margin:14px 0 0;
+}
+#invite .parents-title{
+  font-size:16px;
+  letter-spacing:2.5px;
+  color:#6f6255;
+  margin:28px auto 9px;
+  line-height:1.5;
+}
+#invite .parents-text{
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:21px;
+  line-height:1.45;
+  color:#403329;
+  letter-spacing:1.5px;
+  margin:0;
+}
+#invite .parents-text span{
+  font-size:15px;
+  letter-spacing:3px;
+  color:#8a765a;
+}
+#invite .ornament{
+  color:#b88a38;
+  font-size:28px;
+  margin:13px 0;
+}
+#invite .invite-title{
+  color:#b88a38!important;
+  font-size:15px!important;
+  letter-spacing:4px;
+  font-weight:600;
+  margin:6px 0;
+}
+#invite .invite-text{
+  color:#766858;
+  font-size:18px!important;
+  margin:4px 0 2px;
+}
+#invite .event-title{
+  font-size:29px;
+  letter-spacing:4px;
+  color:#3b2c20;
+  font-weight:600;
+  margin:8px 0 17px;
+}
+#invite .couple{
+  font-size:clamp(39px,5vw,61px);
+  letter-spacing:2px;
+  line-height:1.02;
+  margin:12px 0 10px;
+}
+#invite .couple small{
+  display:block;
+  font-family:"Cormorant Garamond",Georgia,serif;
+  color:#8b6a36;
+  font-size:14px;
+  letter-spacing:4px;
+  margin-top:14px;
+  font-weight:600;
+}
+#invite .request-text{
+  max-width:680px;
+  margin:25px auto 8px;
+  font-size:18px!important;
+  line-height:1.55;
+  color:#67594d;
+}
+#invite .blessing{
+  max-width:640px;
+  margin:15px auto 0;
+}
+
+/* Sections arrive like sliding invitation pages */
+#invite .reveal-card{
+  transform:translateY(75px);
+  opacity:0;
+  transition:transform .9s cubic-bezier(.2,.75,.2,1),opacity .9s ease;
+}
+#invite.page-open .reveal-card{
+  transform:translateY(0);
+  opacity:1;
+}
+#invite.page-open .details{transition-delay:.18s}
+#invite.page-open .count{transition-delay:.38s}
+#invite.page-open .closing{transition-delay:.58s}
+
+/* soft animated gold lines */
+#invite .details:before,#invite .closing:before{
+  content:"";
+  position:absolute;
+  left:10%;
+  right:10%;
+  height:1px;
+  background:linear-gradient(90deg,transparent,#b88a38,transparent);
+  opacity:.25;
+  animation:lineMove 5s ease-in-out infinite alternate;
+}
+
+/* cover-to-invitation transition */
+#cover.seal-closing{
+  animation:coverAway .9s ease forwards;
+}
+@keyframes coverAway{
+  to{opacity:0;transform:scale(.96);filter:blur(5px)}
+}
+@keyframes goldSweep{
+  0%{background-position:0% 0%,100% 100%}
+  100%{background-position:100% 100%,0% 0%}
+}
+@keyframes slowRotate{
+  to{transform:translate(-50%,-50%) rotate(360deg)}
+}
+@keyframes lineMove{
+  from{transform:scaleX(.65)}
+  to{transform:scaleX(1)}
+}
+@media(max-width:700px){
+  #invite .heroText{padding:35px 20px}
+  #invite .parents-title{font-size:12px;letter-spacing:1.8px}
+  #invite .parents-text{font-size:18px}
+  #invite .invite-title{font-size:12px!important;letter-spacing:2.5px}
+  #invite .event-title{font-size:23px;letter-spacing:2px}
+  #invite .request-text{font-size:16px!important}
+}
