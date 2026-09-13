@@ -219,3 +219,9 @@ body:has(#invite:not(.hidden)){
   #invite .event-title{font-size:23px;letter-spacing:2px}
   #invite .request-text{font-size:16px!important}
 }
+#invite .grid article strong{
+  font-family:Georgia, serif !important;
+  font-size:20px;
+  font-weight:500;
+  letter-spacing:1px;
+}
